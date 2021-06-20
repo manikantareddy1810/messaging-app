@@ -1,0 +1,6 @@
+
+
+@Injectable()
+export class TradeStreamService {
+	get trades: Observable<TradeMessage>;
+}
